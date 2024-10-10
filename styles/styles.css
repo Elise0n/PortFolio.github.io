@@ -1,0 +1,124 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.neon {
+    color: #39ff14;
+    text-shadow: 0 0 10px #39ff14, 0 0 20px #39ff14, 0 0 30px #39ff14;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo de la Sección de Inicio */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Proyectos */
+.proyectos {
+    padding: 50px 0;
+    background-color: #101010;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #222;
+    border: 2px solid #39ff14;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+}
+
+.project-card .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #39ff14;
+    background-color: #1a1a1a;
+    border: 2px solid #39ff14;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.project-card .button:hover {
+    background-color: #39ff14;
+    color: #1a1a1a;
+}
+
+/* Sección Sobre Mí */
+.sobre-mi {
+    padding: 50px 0;
+    background-color: #0d0d0d;
+    text-align: center;
+}
+
+/* Contacto */
+.contacto {
+    padding: 50px 0;
+    background-color: #101010;
+    text-align: center;
+}
+
+.contacto form {
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contacto input, .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #39ff14;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    color: #39ff14;
+    background-color: #1a1a1a;
+    border: 2px solid #39ff14;
+    transition: all 0.3s;
+}
+
+.contacto button:hover {
+    background-color: #39ff14;
+    color: #1a1a1a;
+}
